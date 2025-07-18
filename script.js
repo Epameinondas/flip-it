@@ -98,7 +98,7 @@ class MemoryGame {
             this.updateCardDisplay(card1.id);
             this.updateCardDisplay(card2.id);
             
-            if (this.matchedPairs === 4) {
+            if (this.matchedPairs === 8) {
                 this.endGame();
             }
         } else {
