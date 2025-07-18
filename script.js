@@ -39,7 +39,7 @@ class MemoryGame {
     }
 
     generateCards() {
-        const numbers = [1, 2, 3, 4];
+        const numbers = [1, 2, 3, 4, 5, 6];
         const cardPairs = [...numbers, ...numbers];
         
         for (let i = cardPairs.length - 1; i > 0; i--) {
